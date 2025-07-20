@@ -51,7 +51,7 @@
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
 
-  --font-iran-yakan: "IranYekan"
+  --font-iran-yakan: "IranYekan";
 
   /* =========primary color ========== */
   --tint-50: #e7f1ff;

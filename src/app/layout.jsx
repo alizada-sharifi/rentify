@@ -1,3 +1,4 @@
+import { NuqsAdapter } from "nuqs/adapters/next/app";
 import "./globals.css";
 
 export const metadata = {
@@ -8,7 +9,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="fa" dir="rtl">
-      <body className="font-iran-yakan">{children}</body>
+      <body className="font-iran-yakan">
+        <NuqsAdapter>{children}</NuqsAdapter>
+      </body>
     </html>
   );
 }
